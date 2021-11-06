@@ -9,6 +9,16 @@ local INDEX_Y = 2
 local INDEX_TEXTURE = 3
 local INDEX_ITEMID = 4
 
+--[[
+How to get subZone pins:
+
+Replace *X* and *Y* with the coordinates of the data below from zone.
+/script PingMap(MAP_PIN_TYPE_PLAYER_WAYPOINT, MAP_TYPE_LOCATION_CENTERED, *X*, *Y*)
+
+Then swap to subZone and use this command
+/script d(string.format("mapId %d, mapName %s, X %.4f, Y %.4f", GetCurrentMapId(), GetMapName(), GetMapPlayerWaypoint()))
+]]
+
 local ALL_DATA = {
 --Stonefalls
 	[7] = {
@@ -499,6 +509,12 @@ local ALL_DATA = {
 			{ 0.5500, 0.4475, "coldharbor2_survey_woodworker", 57829 }, -- Woodworker Survey: Coldharbour II
 			{ 0.5461, 0.7406, "coldharbor1_survey_jewelry", 139435 }, -- Jewelry Crafting Survey: Coldharbour I
 			{ 0.4110, 0.8136, "coldharbor2_survey_jewelry", 139436 }, -- Jewelry Crafting Survey: Coldharbour II
+		},
+	},
+	-- SubPin: The Hollow City
+	[422] = {
+		[PIN_TYPE_SURVEYS] = {
+			{ -0.0791, 0.6745, "coldharbor02_survey_alchemist", 57784 }, -- Alchemist Survey: Coldharbour II
 		},
 	},
 -- Cyrodiil

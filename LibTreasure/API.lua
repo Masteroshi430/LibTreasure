@@ -25,6 +25,14 @@ function LibTreasure_GetMapIdData(mapId)
 	return mapIdData and mapIdData[mapId] or nil
 end
 
+-- Get the data from a texture name
+-- @param *string* textureName
+-- @return *table:nilable* textureData
+function LibTreasure_GetTextureData(textureName)
+	local textureData = data.TEXTURE_NAME_DATA
+	return textureData and textureData[textureName] or nil
+end
+
 -- Get the itemId of a bookId
 -- @param *number* bookId
 -- @return *table:nilable* itemId
