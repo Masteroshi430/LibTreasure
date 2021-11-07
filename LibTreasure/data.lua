@@ -774,6 +774,13 @@ local ALL_DATA = {
 			{ 0.7473, 0.8035, "blackwood_survey_alchemist", 178469 }, -- Alchemist Survey: Blackwood
 		},
 	},
+-- Deadlands
+	[2021] = {
+		[PIN_TYPE_TREASURE] = {
+			{ 0.2449, 0.8071, "treasuremap_deadlands_01", 183005 }, -- Deadlands Treasure Map I
+			{ 0.7638, 0.3853, "treasuremap_deadlands_02", 183006 }, -- Deadlands Treasure Map II
+		},
+	},
 }
 
 do
