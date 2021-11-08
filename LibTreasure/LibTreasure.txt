@@ -6,11 +6,11 @@
 
 ## Title: LibTreasure
 ## Description: Contains all the data for treasure maps and crafting surveys
-## Version: 1
-## AddOnVersion: 1
+## Version: 2
+## AddOnVersion: 2
 ## IsLibrary: true
 ## Author: Scootworks
-## APIVersion: 101032
+## APIVersion: 101032 101033
 
 startup.lua
 data.lua
