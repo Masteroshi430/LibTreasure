@@ -40,6 +40,10 @@ local ALL_DATA = {
 			{ 0.7502, 0.5841, "stonefalls_survey_enchanter", 57735 }, -- Enchanter Survey: Stonefalls
 			{ 0.6835, 0.6396, "stonefalls_survey_jewelry", 139424 }, -- Jewelry Crafting Survey: Stonefalls
 		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.9353, 0.3610, "no map opened", 187726 }, -- Blackfeather Knave Clue
+		},
+		
 	},
 	-- SubPin: Ebonheart
 	[511] = {
@@ -48,6 +52,12 @@ local ALL_DATA = {
 		},
 		[PIN_TYPE_SURVEYS] = {
 			{ 0.5407, 0.0913, "stonefalls_survey_alchemist", 57746 }, -- Alchemist Survey: Stonefalls
+		},
+	},
+	-- SubPin: Crow's Wood
+	[72] = {
+		[PIN_TYPE_CLUES] = {
+			{ 0.2702, 0.7498, "no map opened", 187726 }, -- Blackfeather Knave Clue
 		},
 	},
 -- Grahtwood
@@ -68,6 +78,9 @@ local ALL_DATA = {
 			{ 0.6120, 0.3808, "grahtwood_survey_alchemist", 57771 }, -- Alchemist Survey: Grahtwood
 			{ 0.4258, 0.2649, "grahtwood_survey_woodworker", 57816 }, -- Woodworker Survey: Grahtwood
 			{ 0.3903, 0.3928, "grahtwood_survey_jewelry", 139425 }, -- Jewelry Crafting Survey: Grahtwood
+		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.4279, 0.5702, "no map opened", 188203 }, -- Grand Larceny Clue
 		},
 	},
 	-- SubPin: Eldenroot
@@ -94,6 +107,9 @@ local ALL_DATA = {
 			{ 0.1484, 0.4960, "deshaan_survey_alchemist", 57772 }, -- Alchemist Survey: Deshaan
 			{ 0.6370, 0.5503, "deshaan_survey_woodworker", 57817 }, -- Woodworker Survey: Deshaan
 			{ 0.4856, 0.6163, "deshaan_survey_jewelry", 139426 }, -- Jewelry Crafting Survey: Deshaan
+		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.1806, 0.4800, "no map opened", 187890 }, -- Hlaalu Councilor Clue
 		},
 	},
 	-- SubPin: Narsis
@@ -135,7 +151,7 @@ local ALL_DATA = {
 		[PIN_TYPE_TREASURE] = {
 			{ 0.6119, 0.7579, "treasuremap_khenarthi_01", 43695 }, -- Khenarthi's Roost Treasure Map I
 			{ 0.2254, 0.3140, "treasuremap_khenarthi_02", 43696 }, -- Khenarthi's Roost Treasure Map II
-			{ 0.4102, 0.5848, "treasuremap_khenarthi_03", 43697 }, -- Khenarthi's Roost Treasure Map III
+			{ 0.4100, 0.5849, "treasuremap_khenarthi_03", 43697 }, -- Khenarthi's Roost Treasure Map III
 			{ 0.7739, 0.3376, "treasuremap_khenarthi_04", 43698 }, -- Khenarthi's Roost Treasure Map IV
 			{ 0.6168, 0.8328, "treasuremap_ce_aldmeri_khenarthi_01a", 44939 }, -- Khenarthi's Roost CE Treasure Map I
 			{ 0.3990, 0.3665, "treasuremap_ce_aldmeri_khenarthi_01b", 45010 }, -- Khenarthi's Roost CE Treasure Map II
@@ -161,6 +177,10 @@ local ALL_DATA = {
 			{ 0.6359, 0.6950, "auridon_survey_blacksmith", 57687 }, -- Blacksmith Survey: Auridon
 			{ 0.3992, 0.6107, "auridon_survey_jewelry", 139422 }, -- Jewelry Crafting Survey: Auridon
 		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.5772, 0.3222, "no map opened", 187894 }, -- Psijic Relicmaster Clue
+			{ 0.5132, 0.9063, "no map opened", 187892 }, -- Summerset Raid Clue
+		},
 	},
 	-- SubPin: Firsthold
 	[540] = {
@@ -174,6 +194,12 @@ local ALL_DATA = {
 			{ 0.8160, 0.729, "treasuremap_ce_aldmeri_auridon_02", 44927 }, -- Auridon CE Treasure Map
 		},
 	},
+	-- SubPin: Wansalen
+	[181] = {
+		[PIN_TYPE_CLUES] = {
+			{ 0.3096, 0.8659, "no map opened", 187894 }, -- Psijic Relicmaster Clue
+		},
+	},
 -- Greenshade
 	[300] = {
 		[PIN_TYPE_TREASURE] = {
@@ -184,6 +210,7 @@ local ALL_DATA = {
 			{ 0.2502, 0.1494, "treasuremap_greenshade_05", 43641 }, -- Greenshade Treasure Map V
 			{ 0.5970, 0.3832, "treasuremap_greenshade_06", 43642 }, -- Greenshade Treasure Map VI
 			{ 0.5931, 0.8112, "treasuremap_ce_aldmeri_greenshade_04", 44938 }, -- Greenshade CE Treasure Map
+			{ 0.2645, 0.1449, "high_isle_hi5_navire_estates", 187902 }, -- Serpentguard Rider Clue
 		},
 		[PIN_TYPE_SURVEYS] = {
 			{ 0.5563, 0.3957, "greenshade_survey_clothier", 57757 }, -- Clothier Survey: Greenshade
@@ -213,6 +240,9 @@ local ALL_DATA = {
 			{ 0.6450, 0.2200, "reapersmarch_survey_blacksmith", 57793 }, -- Blacksmith Survey: Reaper's March
 			{ 0.4289, 0.8485, "reapersmarch_survey_woodworker", 57825 }, -- Woodworker Survey: Reaper's March
 			{ 0.2470, 0.5320, "reapersmarch_survey_jewelry", 139432 }, -- Jewelry Crafting Survey: Reaper's March
+		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.3245, 0.5212, "no map opened", 188204 }, -- Ring's Guile Clue
 		},
 	},
 	-- SubPin:  Rawlkha
@@ -260,11 +290,11 @@ local ALL_DATA = {
 			{ 0.3584, 0.2655, "shadowfen_survey_alchemist", 57775 }, -- Alchemist Survey: Shadowfen
 			{ 0.7959, 0.8522, "shadowfen_survey_blacksmith", 57789 }, -- Blacksmith Survey: Shadowfen
 			{ 0.4032, 0.6982, "shadowfen_survey_enchanter", 57803 }, -- Enchanter Survey: Shadowfen
-			{ 0.5804, 0.6794, "shadowfen_survey_woodworker", 57820 }, -- Woodworker Survey: Shadowfen
+			{ 0.5797, 0.6792, "shadowfen_survey_woodworker", 57820 }, -- Woodworker Survey: Shadowfen
 			{ 0.8888, 0.6867, "shadowfen_survey_jewelry", 139428 }, -- Jewelry Crafting Survey: Shadowfen
 		},
 	},
-	-- SubPin: Alten Corimont
+	-- SubPin: Old Corimont
 	[544] = {
 		[PIN_TYPE_TREASURE] = {
 			{ 0.1231, 0.6281, "treasuremap_shadowfen_04", 43670 }, -- Shadowfen Treasure Map IV
@@ -306,7 +336,6 @@ local ALL_DATA = {
 			{ 0.4791, 0.5563, "treasuremap_therift_04", 43682 }, -- The Rift Treasure Map IV
 			{ 0.8385, 0.5716, "treasuremap_therift_05", 43683 }, -- The Rift Treasure Map V
 			{ 0.7514, 0.6394, "treasuremap_therift_06", 43684 }, -- The Rift Treasure Map VI
-			{ 0.5813, 0.6096, "treasuremap_ce_ebonheart_rift_06", 44947 }, -- The Rift CE Treasure Map
 		},
 		[PIN_TYPE_SURVEYS] = {
 			{ 0.6293, 0.3578, "therift_survey_clothier", 57765 }, -- Clothier Survey: The Rift
@@ -315,6 +344,9 @@ local ALL_DATA = {
 			{ 0.1515, 0.2967, "therift_survey_enchanter", 57809 }, -- Enchanter Survey: The Rift
 			{ 0.4975, 0.3367, "therift_survey_woodworker", 57826 }, -- Woodworker Survey: The Rift
 			{ 0.8035, 0.4203, "therift_survey_jewelry", 139433 }, -- Jewelry Crafting Survey: The Rift
+		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.5414, 0.3916, "no map opened", 187898 }, -- Blood Sacrifice Clue
 		},
 	},
 	-- SubPin: Riften
@@ -335,6 +367,9 @@ local ALL_DATA = {
 			{ 0.5458, 0.6406, "treasuremap_strosmkai_001", 43691 }, -- Stros M'Kai Treasure Map I
 			{ 0.0980, 0.6130, "treasuremap_strosmkai_002", 43692 }, -- Stros M'Kai Treasure Map II
 			{ 0.7000, 0.3300, "treasuremap_ce_daggerfall_stros_01a", 44946 }, -- Stros M'Kai CE Treasure Map
+		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.0856, 0.5982, "no map opened", 188205 }, -- Grand Oratory Clue
 		},
 	},
 	-- SubPin: Port Hunding
@@ -376,6 +411,9 @@ local ALL_DATA = {
 			{ 0.3432, 0.4932, "glenumbra_survey_alchemist", 57745 }, -- Alchemist Survey: Glenumbra
 			{ 0.3640, 0.8347, "glenumbra_survey_blacksmith", 57736 }, -- Blacksmith Survey: Glenumbra
 			{ 0.2221, 0.5135, "glenumbra_survey_jewelry", 139423 }, -- Jewelry Crafting Survey: Glenumbra
+		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.6726, 0.3642, "no map opened", 187886 }, -- Murder of Crows Clue
 		},
 	},
 -- Stormhaven
@@ -445,6 +483,9 @@ local ALL_DATA = {
 			{ 0.5870, 0.3790, "alikr_survey_woodworker", 57824 }, -- Woodworker Survey: Alik'r
 			{ 0.9007, 0.5329, "alikr_survey_jewelry", 139431 }, -- Jewelry Crafting Survey: Alik'r
 		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.7137, 0.5705, "no map opened", 188206 }, -- Ansei's Victory Clue
+		},
 	},
 	-- SubPin: Sentinel
 	[83] = {
@@ -478,6 +519,10 @@ local ALL_DATA = {
 			{ 0.6701, 0.7022, "bangkorai_survey_woodworker", 57827 }, -- Woodworker Survey: Bangkorai
 			{ 0.4674, 0.6938, "bangkorai_survey_jewelry", 139434 }, -- Jewelry Crafting Survey: Bangkorai
 		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.5229, 0.5444, "no map opened", 187904 }, -- Knights of Saint Pelin Clue
+			{ 0.4075, 0.4845, "no map opened", 190927 }, -- Legion's Arrival Clue
+		},
 	},
 	-- SubPin: Evermore
 	[84] = {
@@ -498,7 +543,7 @@ local ALL_DATA = {
 		},
 		[PIN_TYPE_SURVEYS] = {
 			{ 0.7457, 0.6646, "coldharbor2_survey_blacksmith", 57796 }, -- Blacksmith Survey: Coldharbour I
-			{ 0.7310, 0.7030, "coldharbor1_survey_blacksmith", 57797 }, -- Blacksmith Survey: Coldharbour II
+			{ 0.7303, 0.7039, "coldharbor1_survey_blacksmith", 57797 }, -- Blacksmith Survey: Coldharbour II
 			{ 0.6726, 0.7606, "coldharbor1_survey_clothier", 57766 }, -- Clothier Survey: Coldharbour I
 			{ 0.6309, 0.6994, "coldharbor2_survey_clothier", 57767 }, -- Clothier Survey: Coldharbour II
 			{ 0.2485, 0.6220, "coldharbor1_survey_enchanter", 57811 }, -- Enchanter Survey: Coldharbour I
@@ -510,11 +555,20 @@ local ALL_DATA = {
 			{ 0.5461, 0.7406, "coldharbor1_survey_jewelry", 139435 }, -- Jewelry Crafting Survey: Coldharbour I
 			{ 0.4110, 0.8136, "coldharbor2_survey_jewelry", 139436 }, -- Jewelry Crafting Survey: Coldharbour II
 		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.6605, 0.3758, "no map opened", 187896 }, -- Ceporah's Insight Clue
+		},
 	},
 	-- SubPin: The Hollow City
 	[422] = {
 		[PIN_TYPE_SURVEYS] = {
 			{ -0.0791, 0.6745, "coldharbor02_survey_alchemist", 57784 }, -- Alchemist Survey: Coldharbour II
+		},
+	},
+	-- SubPin: The Wailing Maw
+	[263] = {
+		[PIN_TYPE_CLUES] = {
+			{ 0.3979, 0.6925, "no map opened", 187896 }, -- Ceporah's Insight Clue
 		},
 	},
 -- Cyrodiil
@@ -575,7 +629,7 @@ local ALL_DATA = {
 	[667] = {
 		[PIN_TYPE_TREASURE] = {
 			{ 0.4798, 0.7865, "treasuremap_orsinium_01", 43727 }, -- Orsinium Treasure Map I
-			{ 0.7647, 0.5651, "treasuremap_orsinium_02", 43728 }, -- Orsinium Treasure Map II
+			{ 0.7650, 0.5648, "treasuremap_orsinium_02", 43728 }, -- Orsinium Treasure Map II
 			{ 0.2724, 0.6782, "treasuremap_orsinium_03", 43729 }, -- Orsinium Treasure Map III
 			{ 0.4441, 0.4851, "treasuremap_orsinium_04", 43730 }, -- Orsinium Treasure Map IV
 			{ 0.7303, 0.3188, "treasuremap_orsinium_05", 43731 }, -- Orsinium Treasure Map V
@@ -600,6 +654,9 @@ local ALL_DATA = {
 			{ 0.8236, 0.5892, "orsinium_survey_jewelry_01", 139441 }, -- Jewelry Crafting Survey: Wrothgar I
 			{ 0.4441, 0.5889, "orsinium_survey_jewelry_02", 139442 }, -- Jewelry Crafting Survey: Wrothgar II
 			{ 0.1938, 0.6819, "orsinium_survey_jewelry_03", 139443 }, -- Jewelry Crafting Survey: Wrothgar III
+		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.3845, 0.8091, "no map opened", 187900 }, -- Hagraven Matron Clue
 		},
 	},
 	-- SubPin: Orsinium
@@ -648,6 +705,15 @@ local ALL_DATA = {
 			{ 0.6724, 0.6263, "vvardenfell_survey_blacksmith", 126110 }, -- Blacksmith Survey: Vvardenfell
 			{ 0.3368, 0.7736, "vvardenfell_survey_woodworker", 126112 }, -- Woodworker Survey: Vvardenfell
 			{ 0.1748, 0.4099, "vvardenfell_survey_jewelry", 139444 }, -- Jewelry Crafting Survey: Vvardenfell
+		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.3664, 0.6535, "no map opened", 187888 }, -- House Embassy Clue
+		},
+	},
+	-- SubPin: Balmora
+	[1290] = {
+		[PIN_TYPE_CLUES] = {
+			{ 0.2532, 0.5237, "no map opened", 187888 }, -- House Embassy Clue
 		},
 	},
 -- Clockwork City
@@ -777,8 +843,38 @@ local ALL_DATA = {
 -- Deadlands
 	[2021] = {
 		[PIN_TYPE_TREASURE] = {
-			{ 0.2449, 0.8071, "treasuremap_deadlands_01", 183005 }, -- Deadlands Treasure Map I
-			{ 0.7638, 0.3853, "treasuremap_deadlands_02", 183006 }, -- Deadlands Treasure Map II
+			{ 0.2453, 0.8069, "treasuremap_deadlands_01", 183005 }, -- Deadlands Treasure Map I
+			{ 0.7632, 0.3856, "treasuremap_deadlands_02", 183006 }, -- Deadlands Treasure Map II
+		},
+	},
+-- High Isle
+	[2114] = {
+		[PIN_TYPE_TREASURE] = {
+			{ 0.6011, 0.8681, "treasuremap_highisle_01", 187668 }, -- High Isle CE Treasure Map I
+			{ 0.2432, 0.8321, "treasuremap_highisle_02", 187669 }, -- High Isle CE Treasure Map II
+			{ 0.3199, 0.8255, "treasuremap_highisle_03", 187670 }, -- High Isle CE Treasure Map III
+			{ 0.1689, 0.5375, "treasuremap_highisle_04", 187671 }, -- High Isle Treasure Map I
+			{ 0.9342, 0.3220, "treasuremap_highisle_05", 187672 }, -- High Isle Treasure Map II
+			{ 0.7412, 0.3167, "treasuremap_highisle_06", 187673 }, -- High Isle Treasure Map III
+			{ 0.6746, 0.2462, "treasuremap_highisle_07", 187674 }, -- High Isle Treasure Map IV
+			{ 0.6105, 0.7496, "treasuremap_highisle_08", 187675 }, -- High Isle Treasure Map V
+		},
+		[PIN_TYPE_SURVEYS] = {
+			{ 0.6715, 0.3433, "highisle_survey_blacksmith", 188193 }, -- Blacksmith Survey: High Isle
+			{ 0.2423, 0.5300, "highisle_survey_woodworker", 188197 }, -- Woodworker Survey: High Isle
+			{ 0.4181, 0.8076, "highisle_survey_jewelrycrafting", 188196 }, -- Jewelry Crafting Survey: High Isle
+			{ 0.8982, 0.3753, "highisle_survey_clothier", 188194 }, -- Clothier Survey: High Isle
+			{ 0.2929, 0.4068, "highisle_survey_enchanter", 188195 }, -- Enchanter Survey: High Isle
+			{ 0.5398, 0.6298, "highisle_survey_alchemist", 188191 }, -- Alchemist Survey: High Isle
+		},
+		[PIN_TYPE_CLUES] = {
+			{ 0.1566, 0.7789, "no map opened", 187906 }, -- Knight Commander Clue
+		},
+	},
+	-- SubPin: Gonfalon
+	[2163] = {
+		[PIN_TYPE_TREASURE] = {
+				{ 0.9206, 0.6302, "treasuremap_highisle_01", 187668 }, -- High Isle CE Treasure Map I
 		},
 	},
 }
