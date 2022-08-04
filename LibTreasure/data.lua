@@ -3,6 +3,7 @@ local data = LibTreasure.data
 
 local PIN_TYPE_TREASURE = "treasure"
 local PIN_TYPE_SURVEYS = "survey"
+local PIN_TYPE_CLUES = "clue"
 
 local INDEX_X = 1
 local INDEX_Y = 2
